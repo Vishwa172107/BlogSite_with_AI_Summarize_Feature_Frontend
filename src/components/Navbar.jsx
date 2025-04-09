@@ -42,7 +42,7 @@ const Navbar = () => {
                 className="text-2xl font-bold flex items-center gap-2 cursor-pointer"
             >
                 <img
-                    src="/src/assets/blog-app-shopify-6.png"
+                    src="/assets/blog-app-shopify-6.png"
                     alt="BlogSy Logo"
                     className="object-contain"
                     style={{ width: "1em", height: "1em" }}
