@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://blogsite-with-ai-summarize-feature.onrender.com";
 
 export const api = {
     CreateBlog: `${BASE_URL}/form/new-blog`,
