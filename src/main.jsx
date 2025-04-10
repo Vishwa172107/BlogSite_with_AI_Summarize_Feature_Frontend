@@ -11,7 +11,6 @@ import Profile from "./pages/Profile";
 import PostDetail from "./pages/PostDetail";
 import UserProfile from "./pages/UserProfile";
 import { CreateBlog } from "./pages/CreateBlog";
-import "./index.css";
 import Footer from "./components/Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
