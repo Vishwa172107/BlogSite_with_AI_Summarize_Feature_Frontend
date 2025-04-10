@@ -282,36 +282,3 @@ body {
         font-size: 1.5rem;
     }
 } 
-
-.conatiner{
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-}
-
-.container-item1{
-    align-items: center;
-    justify-content: center;
-    align-self: left;
-    left: 0px;
-    width: 50%;
-    padding: 15px;
-}
-
-img{
-    width: 40%;
-    height: 400px;
-}
-
-.image-1{
-    align-self: right;
-    position: static;
-    right: 0px;
-    padding: 15px;
-}
-
-.image-2{
-    align-self: left;
-    left: 0px;
-    padding: 15px;
-}
