@@ -7,7 +7,7 @@ const Landing = () => {
             <div className="max-w-6xl w-full">
 
                 {/* Section 1 */}
-                <div className="flex flex-row-reverse items-center justify-between bg-white rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6">
+                <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-between bg-white rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6">
                     <div className="max-w-lg w-full md:w-1/2 pr-8 text-left">
                         <h1 className="text-4xl font-bold mb-4 text-gray-900">Welcome to BLOGSY</h1>
                         <p className="text-gray-600 mb-6">
@@ -28,7 +28,7 @@ const Landing = () => {
                 </div>
 
                 {/* Section 2 */}
-                <div className="flex flex-row items-center justify-between bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6">
+                <div className="flex flex-col md:flex-row items-center justify-between bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6">
                     <div className="max-w-lg w-full md:w-1/2 pl-8 text-left">
                         <h1 className="text-4xl font-bold mb-4 text-gray-900">Worried about long blogs? We got you!</h1>
                         <p className="text-gray-600">
@@ -42,7 +42,7 @@ const Landing = () => {
                 </div>
 
                 {/* Section 3 */}
-                <div className="flex flex-row-reverse items-center justify-between bg-white rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6">
+                <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-between bg-white rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6">
                     <div className="max-w-lg w-full md:w-1/2 pr-8 text-left">
                         <h1 className="text-4xl font-bold mb-4 text-gray-900">Privacy Concerns? No worries!</h1>
                         <p className="text-gray-600">
@@ -55,7 +55,7 @@ const Landing = () => {
                 </div>
 
                 {/* Section 4 */}
-                <div className="flex flex-row items-center justify-between bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6">
+                <div className="flex flex-col md:flex-row items-center justify-between bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6">
                     <div className="max-w-lg w-full md:w-1/2 pl-8 text-left">
                         <h1 className="text-4xl font-bold mb-4 text-gray-900">Help Keep the Community Safe</h1>
                         <p className="text-gray-600">
