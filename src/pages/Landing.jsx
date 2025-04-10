@@ -9,7 +9,8 @@ const Landing = () => {
                 {/* Section 1 */}
                 <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-between bg-white rounded-xl shadow-md hover:shadow-xl transition w-full p-8 my-6 gap-8">
                     <div className="max-w-lg w-full md:w-1/2 text-center md:text-left px-4 md:px-0">
-                        <h1 className="text-4xl font-bold mb-4 text-gray-900">Welcome to BLOGSY</h1>
+                        <h1 className="text-4xl font-bold mb-2 text-gray-900">Welcome to BLOGSY</h1>
+                        <p className="text-lg text-blue-400 font-medium mb-4">Blogging made easy</p>
                         <p className="text-gray-600 mb-6">
                             A social blogging platform to share and discover new ideas.
                         </p>
